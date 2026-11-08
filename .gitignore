@@ -1,0 +1,22 @@
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.p8
+# User data and generated files
+*.sqlite3
+*.sqlite3-*
+*.db
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+# Model weights
+*.bin
+*.pt
+*.safetensors

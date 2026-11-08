@@ -1,0 +1,1 @@
+{% extends 'journal/base.html' %}{% block content %}<h1>{{ title|default:"Sign in" }}</h1><section><form method="post">{% csrf_token %}{{ form.as_p }}<button>Continue</button></form></section>{% endblock %}
